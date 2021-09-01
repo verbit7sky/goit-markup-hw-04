@@ -73,9 +73,12 @@ ul {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.header-contacts-item:hover .icon-header-contacts,
-.header-contacts-item:focus .icon-header-contacts {
-  fill: var(--accent-color);
+
+.header-mail:hover .icon-header-contacts,
+.header-mail:focus .icon-header-contacts,
+.hеader-phone:hover .icon-header-contacts,
+.hеader-phone:focus .icon-header-contacts {
+  fill: currentColor;
 }
 
 .nav {
@@ -112,10 +115,6 @@ ul {
   margin-right: 10px;
 }
 
-.icon-header-contacts:hover {
-  fill: var(--accent-color);
-}
-
 .header-contacts .item + .item {
   margin-left: 50px;
 }
@@ -143,7 +142,7 @@ ul {
 .header-mail:hover,
 .header-mail:focus,
 .hеader-phone:hover,
-.header-phone:focus,
+.hеader-phone:focus,
 .footer-address-link:hover,
 .footer-address-link:focus,
 .footer-mail:hover,
