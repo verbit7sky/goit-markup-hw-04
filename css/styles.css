@@ -466,6 +466,10 @@ ul {
   cursor: pointer;
 }
 
+.portfolio-link {
+  display: block;
+}
+
 .portfolio-item-caption {
   padding: 20px 24px;
   height: 110px;
@@ -474,7 +478,7 @@ ul {
   border-style: solid;
 }
 
-.portfolio-list-item .portfolio-link {
+.portfolio-list-item .portfolio-text {
   display: block;
   /* margin-left: 24px;
   margin-top: 4px; */
